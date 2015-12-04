@@ -18,6 +18,69 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".EarthquakeActivity"
+            android:label="@string/title_activity_earthquake"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ovh.segfault.safe.MainActivity" />
+        </activity>
+        <activity
+            android:name=".TsunamiActivity"
+            android:label="@string/title_activity_tsunami"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ovh.segfault.safe.MainActivity" />
+        </activity>
+        <activity
+            android:name=".IndusActivity"
+            android:label="@string/title_activity_indus"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ovh.segfault.safe.MainActivity" />
+        </activity>
+        <activity
+            android:name=".WindActivity"
+            android:label="@string/title_activity_wind"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ovh.segfault.safe.MainActivity" />
+        </activity>
+        <activity
+            android:name=".FireActivity"
+            android:label="@string/title_activity_fire"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ovh.segfault.safe.MainActivity" />
+        </activity>
+        <activity
+            android:name=".AssaultActivity"
+            android:label="@string/title_activity_assault"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ovh.segfault.safe.MainActivity" />
+        </activity>
+        <activity
+            android:name=".FirstaidActivity"
+            android:label="@string/title_activity_firstaid"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ovh.segfault.safe.MainActivity" />
+        </activity>
     </application>
 
 </manifest>
